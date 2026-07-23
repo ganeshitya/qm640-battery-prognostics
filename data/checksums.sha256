@@ -1,0 +1,16 @@
+# SHA-256 integrity manifest for raw source archives.
+#
+# This file is POPULATED BY `make data` on first successful download and
+# committed thereafter, so that any subsequent clone can verify byte-for-byte
+# that it holds the same source data as the analysis was run against.
+#
+# Format:  <sha256>  <path relative to repository root>
+#
+# Expected entries once populated:
+#   data/raw/tri_2019/2017-05-12_batchdata_updated_struct_errorcorrect.mat
+#   data/raw/tri_2019/2017-06-30_batchdata_updated_struct_errorcorrect.mat
+#   data/raw/tri_2019/2018-04-12_batchdata_updated_struct_errorcorrect.mat
+#   data/raw/tri_2020/<closed-loop batch files>
+#   data/raw/nasa_pcoe/5.+Battery+Data+Set.zip
+#   data/raw/calce/CS2_*.zip, CX2_*.zip
+#   data/raw/oxford/Oxford_Battery_Degradation_Dataset_1.mat
